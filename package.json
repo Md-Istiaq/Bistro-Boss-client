@@ -10,10 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@egjs/react-flicking": "^4.11.4",
     "localforage": "^1.10.0",
     "match-sorter": "^7.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.27.0",
     "sort-by": "^1.2.0"
   },
