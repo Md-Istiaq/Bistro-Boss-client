@@ -1,0 +1,33 @@
+[
+    {
+        "_id": "643014e4f5a7e52ce1e8fa69",
+        "name": "Samantha Lee",
+        "details": "I loved the variety on the menu, and everything we ordered was delicious. The dessert was a bit underwhelming, but the main courses made up for it. Will definitely return!",
+        "rating": 4
+    },
+    {
+        "_id": "643015e5f5a7e52ce1e8fa70",
+        "name": "David Nguyen",
+        "details": "The service was impeccable, and the food was outstanding. The chef really knows how to bring out the flavors in every dish. I highly recommend the grilled salmon!",
+        "rating": 5
+    },
+    {
+        "_id": "643016e6f5a7e52ce1e8fa71",
+        "name": "Olivia Martinez",
+        "details": "Great food, but the wait time was longer than expected. The ambiance was nice, and the staff was polite, but they seemed a bit overwhelmed. Overall, a good experience but room for improvement.",
+        "rating": 3
+    },
+    {
+        "_id": "643017e7f5a7e52ce1e8fa72",
+        "name": "Ryan Carter",
+        "details": "The best dining experience I’ve had in a while! Every dish was bursting with flavor, and the staff made us feel at home. The chef’s recommended dishes were especially fantastic.",
+        "rating": 5
+    },
+    {
+        "_id": "643018e8f5a7e52ce1e8fa73",
+        "name": "Sophia King",
+        "details": "Good atmosphere and the food was decent, but I expected more based on the reviews. The prices were a bit steep for the portion sizes, though the presentation was excellent.",
+        "rating": 3
+    }
+    
+]

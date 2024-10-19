@@ -4,6 +4,8 @@ import Catagory from '../Catagory/Catagory'
 import PopularMenu from '../PopularMenu/PopularMenu'
 import CallUs from '../CallUs/CallUs'
 import Chef from '../ChefRecommended/Chef'
+import Featured from '../Featured/Featured'
+import Testimonials from '../Testimonials/Testimonials'
 
 function Home() {
   return (
@@ -13,6 +15,8 @@ function Home() {
     <PopularMenu></PopularMenu>
     <CallUs></CallUs>
     <Chef></Chef>
+    <Featured></Featured>
+    <Testimonials></Testimonials>
     </div>
   )
 }

@@ -15,8 +15,8 @@ function Chef() {
     return (
         <section className='lg:m-10 md:m-10 m-2'>
             <SectionTitle
-                heading="Should Try"
-                subHeading="chef recommended">
+                heading="chef recommended"
+                subHeading="Should Try">
 
             </SectionTitle>
             <div className='grid md:grid-cols-3 lg:gap-10 md:gap-10 '>
