@@ -8,7 +8,7 @@ function NavBar() {
 </>
     return (
         <div>
-            <div className="navbar fixed  z-10 bg-opacity-30 max-w-screen-2xl bg-black text-white">
+            <div className="navbar fixed  z-10 bg-opacity-60 max-w-screen-2xl bg-black text-white">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -31,7 +31,7 @@ function NavBar() {
                                 {navOptions}
                         </ul>
                     </div>
-                    <a className='lg:ml-5 md:ml-5'>Bistro Boss <br />Restaraunt
+                    <a className='lg:ml-5 md:ml-5 font-serif'>Bistro Boss <br />Restaraunt
                         </a>
                 </div>
                 <div className="navbar-center hidden lg:flex">

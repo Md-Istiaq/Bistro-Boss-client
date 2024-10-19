@@ -7,7 +7,7 @@ function ChefItem({ item }) {
             <figure>
                 <img
                     src={image}
-                    alt="Shoes" className='lg:w-full lg:h-72 md:h-72 md:w-full h-64 w-full' />
+                    alt="Shoes" className='lg:w-full lg:h-96 md:h-72 md:w-full h-64 w-full' />
             </figure>
             <div className="card-body bg-slate-200 items-center text-center">
                 <h2 className="card-title ">{name}</h2>

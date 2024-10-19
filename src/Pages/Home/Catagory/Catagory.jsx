@@ -29,19 +29,19 @@ function Catagory() {
             >
                 <SwiperSlide>
                     <img src={slide1} alt="" />
-                    <h3 className="lg:text-4xl sm:text-xs uppercase text-center -mt-16 text-white">Salads</h3>
+                    <h3 className="lg:text-4xl sm:text-xs uppercase text-center -mt-16 text-white font-serif">Salads</h3>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={slide2} alt="" />
-                    <h3 className="lg:text-4xl sm:text-xs uppercase text-center -mt-16 text-white">Pizzas</h3>
+                    <h3 className="lg:text-4xl sm:text-xs uppercase text-center -mt-16 text-white font-serif">Pizzas</h3>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={slide3} alt="" />
-                    <h3 className="lg:text-4xl sm:text-xs uppercase text-center -mt-16 text-white">Soups</h3>
+                    <h3 className="lg:text-4xl sm:text-xs uppercase text-center -mt-16 text-white font-serif">Soups</h3>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={slide4} alt="" />
-                    <h3 className="lg:text-4xl sm:text-xs uppercase text-center -mt-16 text-white">Desserts</h3>
+                    <h3 className="lg:text-4xl sm:text-xs uppercase text-center -mt-16 text-white font-serif">Desserts</h3>
                 </SwiperSlide>
             </Swiper>
         </section>
