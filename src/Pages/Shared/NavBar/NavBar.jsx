@@ -3,10 +3,9 @@ import { Link } from 'react-router-dom'
 
 function NavBar() {
     const navOptions = <>
-    <li><Link to ="/">Home</Link></li>
-    <li><Link to ="/menu">Our Menu</Link></li>
-    <li><a>Item 2</a></li>
-    <li><a>Item 3</a></li>
+    <li><a><Link to ="/">Home</Link></a></li>
+    <li><a><Link to ="/menu">Our Menu</Link></a></li>
+    <li><a><Link to ="/order">Order Food</Link></a></li>
 </>
     return (
         <div>
