@@ -16,28 +16,12 @@
         "price": 14.7
     },
     {
-        "_id": "642c155b2c4774f05c36ee7c",
-        "name": "Escalope de Veau",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-5-370x247.jpg",
-        "category": "popular",
-        "price": 14.5
-    },
-    {
         "_id": "642c155b2c4774f05c36ee88",
         "name": "Escalope de Veau",
         "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
         "category": "dessert",
         "price": 12.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee7a",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-5-370x247.jpg",
-        "category": "popular",
-        "price": 14.5
     },
     {
         "_id": "642c155b2c4774f05c36ee8c",
@@ -152,14 +136,6 @@
         "price": 13.5
     },
     {
-        "_id": "642c155b2c4774f05c36ee7f",
-        "name": "Roasted Pork Belly",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "popular",
-        "price": 14.5
-    },
-    {
         "_id": "642c155b2c4774f05c36eea8",
         "name": "Chicken and Walnut Salad",
         "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
@@ -262,14 +238,6 @@
         "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
         "category": "soup",
         "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee7e",
-        "name": "Fish Parmentier",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-5-370x247.jpg",
-        "category": "popular",
-        "price": 14.5
     },
     {
         "_id": "642c155b2c4774f05c36ee8b",
@@ -455,11 +423,55 @@
         "category": "soup",
         "price": 10.5
     },
+
+
+
+
+
+
+
+    
+
+    {
+        "_id": "642c166b2c4774f05c36ee7d",
+        "name": "Poulet Rôti",
+        "recipe": "Oven-roasted chicken with herb butter, served with sautéed vegetables and creamy mashed potatoes.",
+        "image": "https://plus.unsplash.com/premium_photo-1663840344674-f80c2fedc219?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "popular",
+        "price": 16.0
+    },
+    {
+        "_id": "642c177b2c4774f05c36ee7e",
+        "name": "Filet Mignon",
+        "recipe": "Grilled beef tenderloin served with a red wine demi-glace, roasted garlic, and baby potatoes.",
+        "image": "https://images.unsplash.com/photo-1666632980177-6e1f0c0ec6a0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RmlsZXQlMjBNaWdub258ZW58MHx8MHx8fDA%3D",
+        "category": "popular",
+        "price": 28.5
+    },
+    {
+        "_id": "642c188b2c4774f05c36ee7f",
+        "name": "Ratatouille",
+        "recipe": "A traditional French vegetable stew made with zucchini, eggplant, tomatoes, peppers, and fresh herbs.",
+        "image": "https://plus.unsplash.com/premium_photo-1714348309728-afd36ead64be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UmF0YXRvdWlsbGV8ZW58MHx8MHx8fDA%3D",
+        "category": "popular",
+        "price": 12.0
+    },
+    {
+        "_id": "642c199b2c4774f05c36ee80",
+        "name": "Boeuf Bourguignon",
+        "recipe": "Beef slow-cooked in red wine with carrots, onions, mushrooms, and bacon, served with crusty bread.",
+        "image": "https://media.istockphoto.com/id/885542706/photo/goulash-soup.jpg?s=612x612&w=0&k=20&c=SwytqcfHaeT0WLI5yOqC7B_C5QMUOc9H4r7lft-4RdA=",
+        "category": "popular",
+        "price": 22.5
+    }
+    ,
+
+
     {
         "_id": "642c165b2c4774f05c36eeab",
         "name": "Grilled Salmon",
         "recipe": "Grilled salmon fillet served with garlic butter sauce, mashed potatoes, and sautéed spinach.",
-        "image": "https://images.unsplash.com/photo-1723437515844-fd3cb91ef1df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGdyaWxlZCUyMHNhbG1vbnxlbnwwfHwwfHx8MA%3D%3D",
+        "image": "https://plus.unsplash.com/premium_photo-1723478417559-2349252a3dda?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JpbGxlZCUyMHNhbG1vbnxlbnwwfHwwfHx8MA%3D%3D",
         "category": "chef recommended",
         "price": 18.5
     },
@@ -467,7 +479,7 @@
         "_id": "642c175b2c4774f05c36eeac",
         "name": "Lamb Chops",
         "recipe": "Herb-crusted lamb chops with rosemary jus, served with roasted vegetables and garlic mashed potatoes.",
-        "image": "https://images.unsplash.com/photo-1625944228741-cf30983ecb91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fExhbWIlMjBDaG9wc3xlbnwwfHwwfHx8MA%3D%3D",
+        "image": "https://images.unsplash.com/photo-1659275799237-cbc057d97e7f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TGFtYiUyMENob3BzfGVufDB8fDB8fHww",
         "category": "chef recommended",
         "price": 24.3
     },

@@ -3,11 +3,11 @@ import React from 'react'
 function ChefItem({ item }) {
     const { name, image, price, recipe } = item
     return (
-        <div className="card card-compact bg-base-100 shadow-xl mb-10 rounded-none">
+        <div className="card card-compact bg-base-100 shadow-2xl mb-10 rounded-none">
             <figure>
                 <img
                     src={image}
-                    alt="Shoes" className='lg:w-full lg:h-96 md:h-72 md:w-full h-64 w-full' />
+                    alt="Shoes" className='lg:w-full lg:h-72 md:h-72 md:w-full h-64 w-full' />
             </figure>
             <div className="card-body bg-slate-200 items-center text-center">
                 <h2 className="card-title ">{name}</h2>

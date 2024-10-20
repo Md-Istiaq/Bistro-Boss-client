@@ -11,7 +11,7 @@ import SectionTitle from '../../Shared/SectionTitle/SectionTitle';
 
 function Catagory() {
     return (
-        <section className='lg:ml-10 lg:mr-10'>
+        <section>
             <SectionTitle
             subHeading={"From 11.00am to 10.00pm"}
             heading={"Order Online"}>

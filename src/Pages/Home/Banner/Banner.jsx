@@ -8,7 +8,7 @@ import img5 from '../../../assets/home/05.png';
 import img6 from '../../../assets/home/06.png';
 function Banner() {
     return (
-        <Carousel className='lg:ml-10 lg:mr-10'>
+        <Carousel>
             <div>
                 <img src={img1} />
             </div>

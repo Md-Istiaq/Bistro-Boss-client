@@ -13,7 +13,7 @@ function PopularMenu() {
 
     } ,[])
   return (
-    <section className='lg:m-10 md:m-10 m-2'>
+    <section className='m-2'>
         <SectionTitle
         heading="From Our Menu"
         subHeading="Popular Items">

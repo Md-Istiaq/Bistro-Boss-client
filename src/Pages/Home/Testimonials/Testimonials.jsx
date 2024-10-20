@@ -15,7 +15,7 @@ function Testimonials() {
             .then(data => setReviews(data))
     }, [])
     return (
-        <section className='my-20 md:ml-10 md:mr-10'>
+        <section className='my-20'>
             <SectionTitle subHeading="What our client says" heading="Testimonials" ></SectionTitle>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
 
