@@ -1,7 +1,8 @@
 import React from 'react'
 import MenuItem from '../../Shared/MenuItem/MenuItem'
+import { Link } from 'react-router-dom'
 
-function MenuCategory({ items }) {
+function MenuCategory({ items ,title }) {
     return (
         <section className='mb-10'>
             <div className='flex flex-col items-center'>
@@ -12,7 +13,9 @@ function MenuCategory({ items }) {
                             item={item}></MenuItem>)
                     }
                 </div>
-                <button className="btn btn-outline btn-warning bg-slate-200 border-0 border-b-4 mt-4  text-yellow-500">ORDER YOUR FAVOURITE FOOD</button>
+                <Link to={`/order/${title}`}>
+                <button className="btn btn-outline btn-warning bg-slate-200 border-0 border-b-4 mt-4  text-yellow-500 uppercase">ORDER YOUR FAVOURITE {title}</button>
+                </Link>
 
             </div>
 

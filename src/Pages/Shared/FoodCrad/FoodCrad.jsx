@@ -4,7 +4,7 @@ import React from 'react'
 function FoodCrad({ item }) {
     const { name, image, price, recipe } = item
     return (
-        <div className="card card-compact bg-base-100 shadow-2xl mb-10 rounded-none">
+        <div className="card card-compact bg-base-100 shadow-2xl drop-shadow-2xl mb-10 rounded-none">
             <figure>
                 <img
                     src={image}

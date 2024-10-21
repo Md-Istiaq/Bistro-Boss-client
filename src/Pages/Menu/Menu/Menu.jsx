@@ -38,7 +38,7 @@ function Menu() {
           </div>
         </div>
       </div>
-      <MenuCategory items={dessert}></MenuCategory>
+      <MenuCategory items={dessert} title={'dessert'}></MenuCategory>
       {/* This is for pizza items */}
       <div className=' bg-fixed mb-10 bg-gradient-to-t' style={{ backgroundImage: `url(https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)` ,backgroundRepeat: 'no-repeat',backgroundSize: 'cover' }}>
         <div className='p-32 flex flex-col items-center text-center'>
@@ -49,7 +49,7 @@ function Menu() {
           </div>
         </div>
       </div>
-      <MenuCategory items={pizza}></MenuCategory>
+      <MenuCategory items={pizza} title={'pizza'}></MenuCategory>
       {/* This is for salad items */}
       <div className=' bg-fixed mb-10 bg-gradient-to-t' style={{ backgroundImage: `url(https://i.ibb.co.com/hBFGjDy/salad-bg.jpg)` ,backgroundRepeat: 'no-repeat',backgroundSize: 'cover' }}>
         <div className='p-32 flex flex-col items-center text-center'>
@@ -60,7 +60,7 @@ function Menu() {
           </div>
         </div>
       </div>
-      <MenuCategory items={salad}></MenuCategory>
+      <MenuCategory items={salad} title={'salad'}></MenuCategory>
       {/* This is for soup items */}
       <div className=' bg-fixed mb-10 bg-gradient-to-t' style={{ backgroundImage: `url(https://i.ibb.co.com/bJxj2VH/soup-bg.jpg)` ,backgroundRepeat: 'no-repeat',backgroundSize: 'cover' }}>
         <div className='p-32 flex flex-col items-center text-center'>
@@ -71,7 +71,7 @@ function Menu() {
           </div>
         </div>
       </div>
-      <MenuCategory items={soup}></MenuCategory>
+      <MenuCategory items={soup} title={'soup'}></MenuCategory>
       {/**This section is for drinks */}
       <div className=' bg-fixed mb-10 bg-gradient-to-t' style={{ backgroundImage: `url(https://png.pngtree.com/thumb_back/fh260/background/20231108/pngtree-top-view-of-tequila-sunrise-cocktails-on-white-textured-background-image_13792848.png)` ,backgroundRepeat: 'no-repeat',backgroundSize: 'cover' }}>
         <div className='p-32 flex flex-col items-center text-center'>
@@ -82,7 +82,7 @@ function Menu() {
           </div>
         </div>
       </div>
-      <MenuCategory items={drinks}></MenuCategory>
+      <MenuCategory items={drinks} title={'drinks'}></MenuCategory>
 
 
     </div>
