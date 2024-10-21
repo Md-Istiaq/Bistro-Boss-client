@@ -1,13 +1,5 @@
 [
     {
-        "_id": "642c155b2c4774f05c36eeb9",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "drinks",
-        "price": 14.7
-    },
-    {
         "_id": "643010e0f5a7e52ce1e8fa15",
         "name": "Teriyaki Salmon",
         "recipe": "Grilled salmon fillets glazed with sweet and savory teriyaki sauce, served with steamed rice and stir-fried vegetables.",
@@ -16,19 +8,91 @@
         "price": 18.5
     },
    
+  
+
+
+
+
     {
         "_id": "642c155b2c4774f05c36eeba",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
+        "name": "Iced Lemon Tea",
+        "recipe": "Refreshing iced tea brewed with fresh lemons and a hint of mint, served chilled.",
+        "image": "https://images.unsplash.com/photo-1599390719602-2874f553a716?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEljZWQlMjBMZW1vbiUyMFRlYXxlbnwwfHwwfHx8MA%3D%3D",
         "category": "drinks",
-        "price": 14.7
+        "price": 6.5
     },
-
-
-
-
-
+    {
+        "_id": "642c155b2c4774f05c36eebb",
+        "name": "Mango Smoothie",
+        "recipe": "Blended fresh mangoes with yogurt and a dash of honey, served ice-cold.",
+        "image": "https://media.istockphoto.com/id/1160200144/photo/mango-smoothie-juice-and-fruit-in-mason-jars-on-wooden-table-in-rustic-kitchen.webp?a=1&b=1&s=612x612&w=0&k=20&c=VJWgYIKscivgMZzYyF0z5X8rL_waXZBq9csfsHR1SoQ=",
+        "category": "drinks",
+        "price": 8.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eebc",
+        "name": "Cappuccino",
+        "recipe": "Rich espresso topped with frothy steamed milk and a sprinkle of cocoa powder.",
+        "image": "https://images.unsplash.com/photo-1489866492941-15d60bdaa7e0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2FwcHVjY2lub3xlbnwwfDB8MHx8fDA%3D",
+        "category": "drinks",
+        "price": 7.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eebd",
+        "name": "Strawberry Milkshake",
+        "recipe": "Creamy milkshake blended with fresh strawberries, ice cream, and topped with whipped cream.",
+        "image": "https://plus.unsplash.com/premium_photo-1695927469809-d19eba174dd5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U3RyYXdiZXJyeSUyME1pbGtzaGFrZXxlbnwwfDB8MHx8fDA%3D",
+        "category": "drinks",
+        "price": 9.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eebe",
+        "name": "Orange Juice",
+        "recipe": "Freshly squeezed oranges, served cold for a zesty refreshment.",
+        "image": "https://media.istockphoto.com/id/1282705707/photo/delicious-freshly-squeezed-orange-juice-from-organic-oranges-from-the-own-tree.webp?a=1&b=1&s=612x612&w=0&k=20&c=Ff-bXZUt3M6eS60wz7euUzWTBrUr4GSmeavEAAPk8-M=",
+        "category": "drinks",
+        "price": 5.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36eebf",
+        "name": "Pineapple Juice",
+        "recipe": "Freshly pressed pineapple juice, served chilled with a slice of pineapple.",
+        "image": "https://media.istockphoto.com/id/1001350358/photo/drinking-pineapple-juice.webp?a=1&b=1&s=612x612&w=0&k=20&c=4EV2A6bVzvXISMIGUht07WTEs8kAVw6_GA60r0cgIk0=",
+        "category": "drinks",
+        "price": 6.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec0",
+        "name": "Iced Coffee",
+        "recipe": "Cold brewed coffee with milk and ice, perfect for a refreshing pick-me-up.",
+        "image": "https://images.unsplash.com/photo-1484542959923-de288ec85ce1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SWNlZCUyMENvZmZlZXxlbnwwfDB8MHx8fDA%3D",
+        "category": "drinks",
+        "price": 7.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec1",
+        "name": "Mint Lemonade",
+        "recipe": "Lemonade infused with fresh mint leaves, served over ice for a cool refreshment.",
+        "image": "https://images.unsplash.com/photo-1507281549113-040fcfef650e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWludCUyMExlbW9uYWRlfGVufDB8MHwwfHx8MA%3D%3D",
+        "category": "drinks",
+        "price": 6.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec2",
+        "name": "Chocolate Milkshake",
+        "recipe": "Rich and creamy milkshake made with chocolate ice cream and topped with whipped cream.",
+        "image": "https://media.istockphoto.com/id/1126893721/photo/low-key-chocolate-smoothies-on-a-table-in-a-rustic-kitchen.webp?a=1&b=1&s=612x612&w=0&k=20&c=uyQyEubzWmpOYpcHIwV_BJtT9qf14p36O9ttr6nBE2U=",
+        "category": "drinks",
+        "price": 9.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec3",
+        "name": "Green Tea",
+        "recipe": "A healthy blend of green tea leaves, served hot or iced with a slice of lemon.",
+        "image": "https://media.istockphoto.com/id/2050813201/photo/a-cup-of-tea-with-dry-fruit-flowers-and-herbs.webp?a=1&b=1&s=612x612&w=0&k=20&c=IxThNpcpLsYM-3PhCNYI8TLR3OaLQFzFqqTtUMGVjuM=",
+        "category": "drinks",
+        "price": 5.0
+    },
 
 
 

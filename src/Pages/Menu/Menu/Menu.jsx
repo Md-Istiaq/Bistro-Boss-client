@@ -15,6 +15,7 @@ function Menu() {
   const salad = menu.filter(item => item.category === 'salad')
   const pizza = menu.filter(item => item.category === 'pizza')
   const offered = menu.filter(item => item.category === 'offered')
+  const drinks = menu.filter(item => item.category === 'drinks')
   return (
     <div className='lg:mr-10 lg:ml-10 md:mr-10 md:ml-10'>
       <Helmet>
@@ -71,6 +72,17 @@ function Menu() {
         </div>
       </div>
       <MenuCategory items={soup}></MenuCategory>
+      {/**This section is for drinks */}
+      <div className=' bg-fixed mb-10 bg-gradient-to-t' style={{ backgroundImage: `url(https://png.pngtree.com/thumb_back/fh260/background/20231108/pngtree-top-view-of-tequila-sunrise-cocktails-on-white-textured-background-image_13792848.png)` ,backgroundRepeat: 'no-repeat',backgroundSize: 'cover' }}>
+        <div className='p-32 flex flex-col items-center text-center'>
+          <div className='bg-slate-200 bg-opacity-50 p-10 pb-20 pt-12 px-36'>
+            <h3 className="text-4xl font-serif">Drinks</h3>
+            <p className='text-justify'>Quench your thirst with our selection of refreshing drinks, from freshly squeezed juices to rich, creamy milkshakes. Perfect pairings for any meal!</p>
+
+          </div>
+        </div>
+      </div>
+      <MenuCategory items={drinks}></MenuCategory>
 
 
     </div>
