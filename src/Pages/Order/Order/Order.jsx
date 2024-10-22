@@ -28,7 +28,7 @@ function Order() {
             </Helmet>
             <Cover img={OrderCover} title={'Order Food'} text={'Delicious meals delivered right to your door. Fast, fresh, and hassle-free!'}></Cover>
             <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
-                <TabList className="tabs tabs-bordered m-10" >
+                <TabList className="tabs tabs-bordered m-10 " >
                     <Tab className="tab">Salad</Tab>
                     <Tab className="tab">pizza</Tab>
                     <Tab className="tab">Soup</Tab>
