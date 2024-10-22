@@ -7,6 +7,7 @@ function NavBar() {
     <li><a><Link to ="/menu">Our Menu</Link></a></li>
     <li><a><Link to ="/order/salad">Order Food</Link></a></li>
     <li><a><Link to ="/ContactUs">Contact Us</Link></a></li>
+    <li><a><Link to ="/login">Login</Link></a></li>
 </>
     return (
         <div>
@@ -42,7 +43,6 @@ function NavBar() {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
                 </div>
             </div>
         </div>
