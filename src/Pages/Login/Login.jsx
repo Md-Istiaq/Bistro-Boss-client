@@ -1,12 +1,31 @@
-import React from 'react'
-
+import React, { useEffect, useRef, useState } from 'react'
+import { loadCaptchaEnginge, LoadCanvasTemplate, LoadCanvasTemplateNoReload, validateCaptcha } from 'react-simple-captcha'
 function Login() {
+    const captchaRef = useRef(null)
+    const [disabled , setDisabled] = useState(true)
+    useEffect( () =>{
+        loadCaptchaEnginge(6);
+
+    })
     const handleLogin = event =>{
         event.preventDefault();
         const form = event.target;
         const email = form.email.value
         const password = form.password.value
         console.log(email , password)
+    }
+    const handleValidateCaptcha = e =>{
+        const user_captcha_value = captchaRef.current.value
+        
+        if (validateCaptcha(user_captcha_value)==true) {
+            setDisabled(false)
+        }
+        else {
+            alert('Captcha Does Not Match');
+            setDisabled(true)
+            
+        }
+
     }
     return (
         <div className='md:ml-10 md:mr-10' >
@@ -35,8 +54,15 @@ function Login() {
                                         <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                                     </label>
                                 </div>
+                                <div className="form-control">
+                                    <label className="label">
+                                    <LoadCanvasTemplate />
+                                    </label>
+                                    <input type="text" ref={captchaRef} name='captcha' placeholder="type the text above" className="input input-bordered input-warning w-full max-w-xs" required />
+                                    <button onClick={handleValidateCaptcha} className="btn btn-outline btn-warning btn-xs mt-3 mr-8">Validate</button>
+                                </div>
                                 <div className="form-control mt-6">
-                                    <input className="btn btn-outline btn-warning bg-slate-200 border-0 border-b-4 mt-4 items-center text-center text-yellow-400" type="submit" value="Log In" />
+                                    <input disabled={disabled} className="btn btn-outline btn-warning bg-slate-200 border-0 border-b-4 mt-4 items-center text-center text-yellow-400" type="submit" value="Log In" />
                                 </div>
                             </form>
                         </div>
