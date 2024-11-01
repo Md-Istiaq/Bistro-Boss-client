@@ -1,14 +1,29 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
+import { AuthContext } from '../../../providers/AuthProvider'
 
 function NavBar() {
+    const { user , logOut } = useContext(AuthContext)
+    const handleLogOut = () => {
+        logOut()
+        .then( () =>{})
+        .catch(error => console.log(error))
+
+    }
     const navOptions = <>
-    <li><a><Link to ="/">Home</Link></a></li>
-    <li><a><Link to ="/menu">Our Menu</Link></a></li>
-    <li><a><Link to ="/order/salad">Order Food</Link></a></li>
-    <li><a><Link to ="/ContactUs">Contact Us</Link></a></li>
-    <li><a><Link to ="/login">Login</Link></a></li>
-</>
+        <li><a><Link to="/">Home</Link></a></li>
+        <li><a><Link to="/menu">Our Menu</Link></a></li>
+        <li><a><Link to="/order/salad">Order Food</Link></a></li>
+        <li><a><Link to="/ContactUs">Contact Us</Link></a></li>
+        {
+            user ? <>
+            <li onClick={handleLogOut} ><a>Log Out</a></li>
+            </> :
+                <>
+                    <li><a><Link to="/login">Login</Link></a></li>
+                </>
+        }
+    </>
     return (
         <div>
             <div className="navbar fixed  z-10 bg-opacity-60 max-w-screen-2xl bg-black text-white">
@@ -31,11 +46,11 @@ function NavBar() {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                                {navOptions}
+                            {navOptions}
                         </ul>
                     </div>
                     <a className='lg:ml-5 md:ml-5 font-serif'>Bistro Boss <br />Restaraunt
-                        </a>
+                    </a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
