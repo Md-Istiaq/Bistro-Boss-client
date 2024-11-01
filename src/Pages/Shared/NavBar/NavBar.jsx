@@ -15,8 +15,10 @@ function NavBar() {
         <li><a><Link to="/menu">Our Menu</Link></a></li>
         <li><a><Link to="/order/salad">Order Food</Link></a></li>
         <li><a><Link to="/ContactUs">Contact Us</Link></a></li>
+        <li><a><Link to="/secret">Secret</Link></a></li>
         {
             user ? <>
+            <span>{user?.displayName}</span>
             <li onClick={handleLogOut} ><a>Log Out</a></li>
             </> :
                 <>
